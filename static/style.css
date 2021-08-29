@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Olga";
+    src: url('/Assets/Fonts/Olga.ttf');
+    font-family: "Montserrat-Regular";
+    src: url('/Assets/Fonts/Montserrat-Regular.ttf');
+    font-family: "Montserrat-Semi-Bold";
+    src: url('/Assets/Fonts/Montserrat-SemiBold.ttf');
+    font-family: "Raleway-Regular";
+    src: url('/Assets/Fonts/Raleway-Regular.ttf');
+    font-family: "Raleway-Semi-Bold";
+    src: url('/Assets/Fonts/Raleway-SemiBold.ttf');
+    font-family: "Poppins-Regular";
+    src: url('/Assets/Fonts/Poppins-Regular.ttf');
+    font-family: 'Poppins-light';
+    src: url('/Assets/Fonts/Poppins-Light.ttf');
+}
+:root{
+    --dark-violet : #443e4aff;
+    --mid-violet :#b9b1bcff;
+    --light-violet : #d5d0d7ff;
+    --light-cream : #fcf9edff;
+
+}
+nav{
+    background-color: var(--dark-violet) !important; 
+}
+.navbar-brand{
+    font-family: "Olga" !important;
+}
+.nav-links {
+    font-family: "Montserrat-Regular" !important;
+}
