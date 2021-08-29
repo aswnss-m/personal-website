@@ -1,32 +1,80 @@
 @font-face {
     font-family: "Olga";
     src: url('/Assets/Fonts/Olga.ttf');
+}
+@font-face {
     font-family: "Montserrat-Regular";
     src: url('/Assets/Fonts/Montserrat-Regular.ttf');
+}
+@font-face {
     font-family: "Montserrat-Semi-Bold";
     src: url('/Assets/Fonts/Montserrat-SemiBold.ttf');
+}
+@font-face{
     font-family: "Raleway-Regular";
     src: url('/Assets/Fonts/Raleway-Regular.ttf');
+}
+@font-face{
     font-family: "Raleway-Semi-Bold";
     src: url('/Assets/Fonts/Raleway-SemiBold.ttf');
+}
+@font-face{
     font-family: "Poppins-Regular";
     src: url('/Assets/Fonts/Poppins-Regular.ttf');
+}
+@font-face{
     font-family: 'Poppins-light';
     src: url('/Assets/Fonts/Poppins-Light.ttf');
 }
-:root{
+
+.root{
     --dark-violet : #443e4aff;
     --mid-violet :#b9b1bcff;
     --light-violet : #d5d0d7ff;
     --light-cream : #fcf9edff;
 
 }
-nav{
-    background-color: var(--dark-violet) !important; 
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background: #443e4aff !important; 
 }
 .navbar-brand{
     font-family: "Olga" !important;
+    color: #fcf9edff !important;
+
 }
-.nav-links {
+.nav-link {
+    color: #fcf9edff !important;
     font-family: "Montserrat-Regular" !important;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/Assets/images/fantasy\ city.jpg');
+    background-color: rgb(0, 0, 0,0.9);
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fcf9edff;
+}
+.homeContent img{
+    width: 30%;
+}
+.homeContent h1{
+    font-family: "Olga";
+    font-size: 10vw;
+}
+.homeContent p{
+    font-family: "Montserrat-Regular";
+    font-size: 2vw;
 }
