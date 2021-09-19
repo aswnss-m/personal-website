@@ -108,6 +108,8 @@ body{
     width: 100vw;
     height: fit-content;
     display: flex;
+    justify-content: center;
+    background: var(--light-violet);
 }
 .aboutText{
     height: fit-content;
@@ -172,4 +174,18 @@ body{
     width: 90%;
     height: 100%;
     background: var(--dark-violet);
+}
+@media screen and (min-width: 1024px) {
+    .home{
+        height:100vh;
+    }
+    .homeContent p{
+        font-size: 20px;
+    }
+    .about{
+        height:50vh;
+    }
+    .aboutText{
+        width:90vw;
+    }
 }
