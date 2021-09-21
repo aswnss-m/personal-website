@@ -1,34 +1,34 @@
 @font-face {
     font-family: "Olga";
-    src: url('Assets/Fonts/Olga.ttf');
+    src: url('/Assets/Fonts/Olga.ttf') ;
 }
 @font-face {
     font-family: "Montserrat-Regular";
-    src: url('Assets/Fonts/Montserrat-Regular.ttf');
+    src: url('/Assets/Fonts/Montserrat-Regular.ttf') ;
 }
-@font-face {
+@font-face{
     font-family: "Montserrat-Semi-Bold";
-    src: url('Assets/Fonts/Montserrat-SemiBold.ttf');
+    src: url('/Assets/Fonts/Montserrat-SemiBold.ttf') ;
 }
 @font-face{
     font-family: "Raleway-Regular";
-    src: url('Assets/Fonts/Raleway-Regular.ttf');
+    src: url('/Assets/Fonts/Raleway-Regular.ttf') ;
 }
 @font-face{
     font-family: "Raleway-Semi-Bold";
-    src: url('Assets/Fonts/Raleway-SemiBold.ttf');
+    src: url('/Assets/Fonts/Raleway-SemiBold.ttf') ;
 }
 @font-face{
     font-family: "Poppins-Regular";
-    src: url('Assets/Fonts/Poppins-Regular.ttf');
+    src: url('/Assets/Fonts/Poppins-Regular.ttf') ;
 }
 @font-face{
     font-family: 'Poppins-light';
-    src: url('Assets/Fonts/Poppins-Light.ttf');
+    src: url('/Assets/Fonts/Poppins-Light.ttf') ;
 }
 @font-face{
     font-family: 'BebusNeue';
-    src: url('Assets/Fonts/BebasNeue-Regular.ttf');
+    src: url('/Assets/Fonts/BebasNeue-Regular.ttf') ;
 }
 
 :root{
@@ -74,10 +74,13 @@ body{
 .lightbgc{
     background-color: var(--light-cream);
 }
+.darkbg{
+    background-color: var(--dark-violet);
+}
 .home{
     width: 100vw;
     height: 50vh;
-    background-image: url('Assets/images/fantasy\ city.jpg');
+    background-image: url('/Assets/images/fantasy\ city.jpg');
     background-color: rgb(0, 0, 0,0.9);
     background-size: cover;
     background-position-x: center;
@@ -174,6 +177,35 @@ body{
     width: 90%;
     height: 100%;
     background: var(--dark-violet);
+}
+/* Project Section */
+.project{
+    width: 100vw;
+    height: 100vh;
+    color: var(--light-cream);
+}
+.project-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
+
+}
+.project-card{
+    background-color: whitesmoke;
+}
+.project-symbol{
+    background-color: black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+.project-details{
+    width: 100%;
+    height: 10vh;
+    background-color: red;
 }
 @media screen and (min-width: 1024px) {
     .home{

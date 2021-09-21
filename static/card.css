@@ -1,0 +1,31 @@
+
+.card{
+    width: 200px;
+    height: 250px;
+    background-color: slategray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.card-symbols{
+    display: flex;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 100%;
+    margin : 2px 5px 0 0;
+}
+.card-header{
+    font-size: 16px;
+    padding: 0;
+}
+.card-link{
+    margin: 20px 0 0 0;
+    
+}
+.card-link a{
+    text-decoration: none;
+}
