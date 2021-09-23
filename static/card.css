@@ -14,7 +14,8 @@
 .circle{
     width: 30px;
     height: 30px;
-    background-color: red;
+    display: grid;
+    place-items: center;
     border-radius: 100%;
     margin : 2px 5px 0 0;
 }
@@ -24,8 +25,10 @@
 }
 .card-link{
     margin: 20px 0 0 0;
-    
+    text-decoration: none;
 }
 .card-link a{
+    color: white;
+    background: transparent;
     text-decoration: none;
 }

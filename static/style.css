@@ -52,11 +52,15 @@ body{
     top:0 ;
     width:100%;
     background: var(--dark-violet) !important; 
+    z-index: 1000;
 }
 .navbar-brand{
     font-family: 'Jomhuria', cursive !important;
     color: var(--light-cream) !important;
-    
+    justify-self: center;
+    margin-right: 0 !important;
+    display: flex;
+    align-items: center;
 }
 .nav-link {
     color: var(--light-cream) !important;
@@ -110,7 +114,8 @@ body{
 }
 .homeContent p{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 14px;
 }
 /* About Section */
 .about{
@@ -197,8 +202,9 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    grid-template-columns: 200px ;
+    padding-top: 20px;
 
 }
 .project-card{
